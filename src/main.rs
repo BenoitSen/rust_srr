@@ -16,5 +16,4 @@ fn main() {
     let args = Args::parse();
 
     let srr_file = SrrFile::from_file(&args.file);
-    println!("File was generated with : {}", srr_file.application_name);
 }
